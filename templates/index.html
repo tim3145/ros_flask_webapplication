@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask-ROS Web App</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="/static/main.js"></script>
+</head>
+<body>
+    <h1>Flask-ROS 2 Web Application</h1>
+    <div>
+        <label for="commandInput">Command:</label>
+        <input type="text" id="commandInput" placeholder="Enter command">
+        <button onclick="sendCommand()">Send Command</button>
+    </div>
+    <div>
+        <h3>Real-time ROS Data:</h3>
+        <p id="rosData">No data yet</p>
+    </div>
+</body>
+</html>
+
